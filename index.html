@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'">
+        <title>MIDI Snooper</title>
+    </head>
+    <body>
+        <h1>MIDI Snooper</h1>
+
+        <br>
+        Notes in cache: <span id="notes-in-cache"></span>
+        <br><br>
+        <button id="btn-export-midi-30s">Last 30 seconds</button>
+        <button id="btn-export-midi-60s">Last minute</button>
+        <button id="btn-export-midi-120s">Last 2 minutes</button>
+        <button id="btn-export-midi-300s">Last 5 minutes</button>
+        <button id="btn-export-midi">Export ALL MIDI</button>
+        <br><br>
+        <button id="btn-clear-midi">Clear MIDI</button>
+
+        <script src="./renderer.js"></script>
+    </body>
+</html>

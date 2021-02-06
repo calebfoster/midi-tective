@@ -1,0 +1,21 @@
+{
+  "name": "midi-snoop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "electron-reload": "^1.4.0",
+    "jsmidgen": "^0.1.5",
+    "midi": "^0.9.5"
+  },
+  "devDependencies": {
+    "electron": "^4.1.4",
+    "electron-rebuild": "^1.8.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC"
+}
